@@ -1,4 +1,5 @@
 # If you come from bash you might have to change your $PATH.
+echo "Hello world"
 
 export JAVA_HOME=`/usr/libexec/java_home`
 
