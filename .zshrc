@@ -1,5 +1,4 @@
 # If you come from bash you might have to change your $PATH.
-echo "Hello world"
 
 export JAVA_HOME=`/usr/libexec/java_home`
 
@@ -105,8 +104,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias runios='react-native run-ios'
 alias runandroid='react-native run-android'
-export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
