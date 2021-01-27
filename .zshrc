@@ -11,7 +11,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$HOME/work/other/bin
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/wilku/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 export REACT_EDITOR=code
 
 # Set name of the theme to load. Optionally, if you set this to "random"
